@@ -1,0 +1,170 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*body{
+    display:flex;
+    min-height: 100vh;
+    background: #EFC076;
+}*/
+
+.cabecera{
+    background-color: black;
+    color:chocolate;
+    padding: 10px 8px;
+    padding-bottom: 20px;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.fondo{
+    width: 100%;
+}
+
+/*img{
+    width:100%;
+}*/
+
+.header{
+    background-color: dimgray;
+    padding-left: 20px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin: auto;
+    width: 80%;
+    font-size: 20px;
+
+}
+
+.nav li a{
+    background-color: dimgray;
+    color:#fff;
+    text-decoration: none;
+    padding: 10px 15px;
+    display:block;
+}
+
+.nav li a:hover{
+    background-color: grey;
+}
+
+.nav > li{
+    float:left;
+}
+
+.nav li ul{
+    display: none;
+    position:absolute;
+    min-width: 140px;
+}
+
+.nav li:hover > ul{
+    display: block;
+}
+
+.nav li ul li{
+    position:relative;
+
+}
+
+.nav li ul li ul{
+    right:-140px;
+    top:0px;
+}
+
+ul, ol{
+    list-style: none;
+}
+
+#c-slider{
+    margin:auto;
+    width: 85%;
+    max-width: 900%;
+    position: relative;
+    overflow: hidden;
+    box-shadow: 0 0 0 10px #fff,
+                0 15px 50px;
+}
+
+#slider{
+    display: flex;
+    width: 600%;
+}
+
+#slider section{
+    width: 100%;
+}
+
+#slider img{
+    display: block;
+    width: 100%;
+    height: 100%;
+
+}
+
+#btn-prev, #btn-next{
+    width: 40px;
+    height: 40px;
+    background: rgba(255, 255, 255, 0.5);
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    line-height: 40px;
+    font-size: 22px;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 50%;
+    font-family: monospace;
+    cursor: pointer;
+}
+
+#btn-prev:hover, #btn-next:hover {
+    background: rgba(255, 255, 255, 1);
+    
+}
+
+#btn-prev{
+    left: 10px;
+}
+
+#btn-next{
+    right: 10px;
+}
+
+.contenedor{
+    width:80%;
+    margin: auto;
+
+}
+
+.proyectospersonales .fondoProyectos{
+    z-index: -10;
+}
+
+.fondoProyectos{
+    background: chocolate;
+    width:500px;
+    height:400px;
+    position:relative;
+    left:25%;
+
+}
+
+.fotoFondoProyectos img{
+    background-color: black;
+    width: 700px;
+    position:absolute;
+    left: 15%;
+    top: 15%;
+}
+
+.garantias{
+    background-color:gray;
+    width: 300px;
+    height: 200px;
+    position:absolute;
+    left: 80%;
+    top: 80%;
+}
