@@ -67,3 +67,19 @@ p, ul, li, tr, th, td, pre{
     width: 70;
     height: 70;
 }
+
+.nuevoTema {
+    width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.treintaFotos {
+    width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.treintaFotos img {
+    width: 100%;
+}
