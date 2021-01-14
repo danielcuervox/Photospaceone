@@ -34,7 +34,7 @@ embed, iframe{
     border-width: 5px;
 }
 
-p, ul, li{
+p, ul, li, tr, th, td, pre{
     color: white;
     
 }
