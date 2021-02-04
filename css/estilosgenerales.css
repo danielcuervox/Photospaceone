@@ -92,21 +92,72 @@ div.figure {
     margin: 0.5em;
     padding: 0.5em;
   }
-  div.figure p {
+div.figure p {
     text-align: center;
     font-style: italic;
     font-size: smaller;
     text-indent: 0;
-  }
+}
 
-  .explicaciones{
-      display: inline-block;
-  }
+.explicacionesKurt{
+      background-color:rgb(141, 145, 148);
+      height: 800 px;
+      width: 100%;
+      padding-bottom: 230px;
+}
 
-
-
-  .imaExplicacionesKurt img{
+.imaExplicacionesKurt img{
       width: 200px;
-      display: 
-      
-  }
+      height: 230;
+      float: left;
+}
+
+.explicaciones{
+    padding: 50px 10px 50px 10px;
+}
+
+.tiposDePersonaje{
+    width: 90%;
+    height: 500px;
+    background-color: rgb(134, 136, 138);
+    display: flex;
+    
+}
+
+.tiposDePersonaje img{
+    
+    width: 300px;
+    
+}
+
+.clear{
+    clear:both;
+}
+
+
+.dimensionPersonaje > table, th, td{
+    border: 1px solid white;
+    
+}
+
+
+
+.dimensionPersonaje > th, td{
+    padding: 10px;
+}
+
+#dimensionesPersonaje{
+    margin: auto;
+}
+
+.next-prev > table{
+    border: 1px solid black;
+}
+
+.next-prev th{
+    border: 1px solid rgb(0, 0, 0);
+}
+
+.next-prev td{
+    border: 1px solid rgb(0, 0, 0);
+}
