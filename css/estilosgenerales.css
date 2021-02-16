@@ -26,6 +26,9 @@ img, video{
     display:block;
 }
 
+
+/*incio navegador back - next - home*/
+
 embed, iframe{
     margin-left: auto;
     margin-right: auto;
@@ -34,16 +37,31 @@ embed, iframe{
     border-width: 5px;
 }
 
+.backNext table tr td, th{
+    border: 1px solid black;
+}
+
 p, ul, li, tr, th, td, pre{
     color: white;
     
 }
+/*din de back - next - home*/
 
-.makingofViajerosAmor img{
-    display:inline-block;
+.makingofViajerosAmor{
+    width: 95%;
+    display: flex;
+    flex-wrap: wrap;
     margin-left: auto;
     margin-right: auto;
 }
+
+/* ---no está funcionando--
+
+.makingofViajerosAmor img:hover{
+    transition: all .5s ease-out;
+
+}
+*/
 
 .makingofComoEnCasa{
     margin-left: 20px;
@@ -136,7 +154,7 @@ div.figure p {
 
 
 .dimensionPersonaje > table, th, td{
-    border: 1px solid white;
+    border: 1px solid rgb(255, 255, 255);
     
 }
 
