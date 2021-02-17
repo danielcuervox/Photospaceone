@@ -45,7 +45,9 @@ p, ul, li, tr, th, td, pre{
     color: white;
     
 }
-/*din de back - next - home*/
+
+
+/*fin de back - next - home*/
 
 .makingofViajerosAmor{
     width: 95%;
@@ -56,6 +58,20 @@ p, ul, li, tr, th, td, pre{
 }
 
 /* ---no está funcionando--
+
+
+/*INICIO índice de clases */
+
+.indiceClases{
+    background-color: gray;
+    width: 60%;
+    margin: auto;
+    padding: 20px;
+}
+
+
+/*FIN índice de clases*/
+
 
 .makingofViajerosAmor img:hover{
     transition: all .5s ease-out;
