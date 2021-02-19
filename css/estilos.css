@@ -142,15 +142,9 @@ ul, ol{
 .contenedorUno{
     border:1px solid green;
     width: 100%;
+    min-height: 400px;
     z-index: -400;
-    margin-bottom: 100px;
-}
-
-.contenedor{
-    width:80%;
-    margin: auto;
-    background-color: greenyellow;
-
+    margin-bottom: 150px;
 }
 
 .proyectospersonales .fondoProyectos{
@@ -163,16 +157,16 @@ ul, ol{
 
 .fondoProyectos{
     background: chocolate;
-    width:500px;
-    height:400px;
+    width: 50%;
+    height: 300px;
     position:relative;
-    left:25%;
+    left:20%;
 
 }
 
 .fotoFondoProyectos img{
-    background-color: black;
-    width: 700px;
+    
+    width: 120%;
     position:absolute;
     left: 15%;
     top: 15%;
@@ -180,17 +174,47 @@ ul, ol{
 
 .garantias{
     background-color:gray;
-    width: 300px;
-    height: 200px;
+    width: 60%;
+    height: 35%;
     position:absolute;
     left: 80%;
-    top: 80%;
+    top: 100%;
 }
-
 /*FIN CONTENEDOR 1*/
 
-/*footer*/
 
+/*CONTENEDOR DE INFO DANIEL*/
+.contenedorInfoDaniel{
+    border: 1px solid red;
+    width: 100%;
+    height: 500px;
+    margin-bottom: 150px;
+    position: relative;
+    
+}
+
+.contenedorInfoDaniel img {
+    width: 100%;
+    height: 700px;
+    padding-bottom: 200px;
+}
+
+.textura{
+    position: absolute;
+    top: 10%;
+    left: 5%;
+}
+
+.textura img{
+    width: 200%;
+    height: 200%;
+}
+
+/*FIN DE CONTENEDOR DE INFO DANIEL*/
+
+
+
+/*footer*/
 .footer{
     background-color: black;
     color: chocolate;
