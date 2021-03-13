@@ -14,6 +14,12 @@ h2{
     
 }
 
+h3{
+    padding-left: 40px;
+    color:orange;
+    
+}
+
 .personajes{
     text-align:center;
     color:orange;
@@ -194,4 +200,21 @@ div.figure p {
 
 .next-prev td{
     border: 1px solid rgb(0, 0, 0);
+}
+
+.haciaDerecha{
+    padding-left: 20px;
+    padding-right: 30px;
+}
+
+.backgroundGray{
+    width: 90%;
+    background-color: gray;
+    display: flex;
+    margin: auto;
+    
+}
+
+.backgroundGray img{
+    padding: 10px;
 }
