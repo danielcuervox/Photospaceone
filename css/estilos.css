@@ -144,7 +144,7 @@ ul, ol{
     width: 100%;
     min-height: 400px;
     z-index: -400;
-    margin-bottom: 150px;
+    margin-bottom: 120px;
 }
 
 .proyectospersonales .fondoProyectos{
@@ -157,8 +157,8 @@ ul, ol{
 
 .fondoProyectos{
     background: chocolate;
-    width: 50%;
-    height: 300px;
+    width: 60%;
+    height: 350px;
     position:relative;
     left:20%;
 
@@ -168,8 +168,8 @@ ul, ol{
     
     width: 120%;
     position:absolute;
-    left: 15%;
-    top: 15%;
+    left: 5%;
+    top: 5%;
 }
 
 .garantias{
@@ -178,8 +178,15 @@ ul, ol{
     height: 35%;
     position:absolute;
     left: 80%;
-    top: 100%;
+    top: 90%;
+    
 }
+
+.garantias p{
+    color: white;
+    padding: 5px;
+}
+
 /*FIN CONTENEDOR 1*/
 
 
