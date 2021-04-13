@@ -157,8 +157,8 @@ ul, ol{
 
 .fondoProyectos{
     background: chocolate;
-    width: 60%;
-    height: 350px;
+    width: 20vw;
+    height: 35vh !important;
     position:relative;
     left:20%;
 
