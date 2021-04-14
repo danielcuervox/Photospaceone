@@ -12,7 +12,7 @@ body{
 }
 
 
-h1 {
+h1, h2 {
     text-align: center;
     color: orange;
     text-align: center;
@@ -47,6 +47,16 @@ h1 {
 .gallery-container .gallery-card a > img:hover{
     transform: scale(1.5); 
 }
+
+embed, iframe{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    border-color: rgb(252, 252, 252);
+    border-width: 5px;
+}
+
+
 
 
 
